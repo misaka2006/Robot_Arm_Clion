@@ -1,0 +1,9 @@
+// Ozone project for the STM32H723VG single-joint test firmware.
+void OnProjectLoad(void) {
+  Edit.SysVar (VAR_HSS_SPEED, "500 Hz");
+  Project.SetDevice("STM32H723VG");
+  Project.SetHostIF("USB", "0");
+  Project.SetTargetIF("SWD");
+  Project.SetTIFSpeed("1 MHz");
+  File.Open("build/Debug/Robot_Arm_Clion.axf");
+}

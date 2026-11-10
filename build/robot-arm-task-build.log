@@ -1,0 +1,22 @@
+[0/2] Re-checking globbed directories...
+[1/3] Building CXX object CMakeFiles/Robot_Arm_Clion.dir/User/Task/Src/tsk_config_and_callback.cpp.obj
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Task/Src/tsk_config_and_callback.cpp:3:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Congfig/Inc/config.h:72: warning: "DEBUG" redefined
+   72 | #define DEBUG
+      | 
+<command-line>: note: this is the location of the previous definition
+[2/3] Linking CXX executable Robot_Arm_Clion.axf
+Memory region         Used Size  Region Size  %age Used
+
+         DTCMRAM:       74968 B       128 KB     57.20%
+
+          RAM_D1:           0 B       320 KB      0.00%
+
+          RAM_D2:           0 B        32 KB      0.00%
+
+          RAM_D3:           0 B        16 KB      0.00%
+
+         ITCMRAM:           0 B        64 KB      0.00%
+
+           FLASH:       94388 B         1 MB      9.00%
+

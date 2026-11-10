@@ -1,0 +1,196 @@
+[0/2] Re-checking globbed directories...
+[1/6] Building C object CMakeFiles/Robot_Arm_Clion.dir/Core/Src/main.c.obj
+[2/6] Building CXX object CMakeFiles/Robot_Arm_Clion.dir/User/Task/Src/tsk_config_and_callback.cpp.obj
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Task/Src/tsk_config_and_callback.cpp:3:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Congfig/Inc/config.h:88: warning: "DEBUG" redefined
+   88 | #define DEBUG
+      | 
+<command-line>: note: this is the location of the previous definition
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Task/Src/tsk_config_and_callback.cpp:54:14: warning: 'Last_Gravity_Mass_3J' defined but not used [-Wunused-variable]
+   54 | static float Last_Gravity_Mass_3J[GRAVITY_COMP_JOINT_NUM] = {0.0f, 20.0f, 30.0f};
+      |              ^~~~~~~~~~~~~~~~~~~~
+[3/6] Building CXX object CMakeFiles/Robot_Arm_Clion.dir/User/Driver/Src/drv_can.cpp.obj
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Algorithm/Inc/alg_power_limit.h:20,
+                 from D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_djimotor.h:19,
+                 from D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_gimbal.h:26,
+                 from D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Inc/ita_chariot.h:19,
+                 from D:/Program/ZLLC27/Robot_Arm_Clion/User/Driver/Src/drv_can.cpp:13:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Congfig/Inc/config.h:88: warning: "DEBUG" redefined
+   88 | #define DEBUG
+      | 
+<command-line>: note: this is the location of the previous definition
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Inc/ita_chariot.h:24:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_chassis.h:52: warning: "PI" redefined
+   52 | #define PI 3.141593f
+      | 
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_gimbal.h:19: note: this is the location of the previous definition
+   19 | #define PI 3.1415926535f
+      | 
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_force_control_chassis.h:5,
+                 from D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Inc/ita_chariot.h:25:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Algorithm/Inc/alg_new_power_limit.h:10: warning: "PI" redefined
+   10 | #define PI 3.14159265354f
+      | 
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_chassis.h:52: note: this is the location of the previous definition
+   52 | #define PI 3.141593f
+      | 
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Inc/ita_chariot.h:29:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_GraphicsSendTask.h:8: warning: "PI" redefined
+    8 | #define PI 3.14159f
+      | 
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Algorithm/Inc/alg_new_power_limit.h:10: note: this is the location of the previous definition
+   10 | #define PI 3.14159265354f
+      | 
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_minipc.h:21,
+                 from D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_gimbal.h:27:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h: In member function 'uint16_t Class_Referee::Get_HP(Enum_Referee_Data_Robots_ID)':
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_NO' not handled in switch [-Wswitch]
+ 1421 |     switch (Robots_ID)
+      |            ^
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_RED_INFANTRY_5' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_RED_AERIAL_6' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_RED_DART_8' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_RED_RADAR_9' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_HERO_1' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_ENGINEER_2' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_INFANTRY_3' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_INFANTRY_4' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_INFANTRY_5' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_AERIAL_6' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_SENTRY_7' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_DART_8' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_RADAR_9' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_BASE_10' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_OUTPOST_11' not handled in switch [-Wswitch]
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_gimbal.h:29:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_lkmotor.h: At global scope:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_lkmotor.h:205:37: warning: overflow in conversion from 'int' to 'int16_t' {aka 'short int'} changes value from '262144' to '0' [-Woverflow]
+  205 |     const int16_t Current_Max_Cmd = 262144;//外环速度环262144限幅
+      |                                     ^~~~~~
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_gimbal.h:348:12: warning: inline variables are only available with '-std=c++17' or '-std=gnu++17' [-Wc++17-extensions]
+  348 |     static inline uint32_t can_priority_cnt = 0; // 电机CAN通信优先级计数器，前面写inline是为了能保持变量是类内部静态变量的同时可以自动初始化
+      |            ^~~~~~
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Inc/ita_chariot.h:18:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_VT13.h:128:17: warning: 'uint16_t get_crc16_check_sum(uint8_t*, uint16_t, uint16_t)' declared 'static' but never defined [-Wunused-function]
+  128 | static uint16_t get_crc16_check_sum(uint8_t *p_msg, uint16_t len, uint16_t crc16);
+      |                 ^~~~~~~~~~~~~~~~~~~
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_VT13.h:130:17: warning: 'crc16_init' defined but not used [-Wunused-variable]
+  130 | static uint16_t crc16_init = 0xffff;
+      |                 ^~~~~~~~~~
+[4/6] Building CXX object CMakeFiles/Robot_Arm_Clion.dir/User/Interaction/Src/ita_chariot.cpp.obj
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Algorithm/Inc/alg_power_limit.h:20,
+                 from D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_djimotor.h:19,
+                 from D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_gimbal.h:26,
+                 from D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Inc/ita_chariot.h:19,
+                 from D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:14:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Congfig/Inc/config.h:88: warning: "DEBUG" redefined
+   88 | #define DEBUG
+      | 
+<command-line>: note: this is the location of the previous definition
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Inc/ita_chariot.h:24:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_chassis.h:52: warning: "PI" redefined
+   52 | #define PI 3.141593f
+      | 
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_gimbal.h:19: note: this is the location of the previous definition
+   19 | #define PI 3.1415926535f
+      | 
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_force_control_chassis.h:5,
+                 from D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Inc/ita_chariot.h:25:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Algorithm/Inc/alg_new_power_limit.h:10: warning: "PI" redefined
+   10 | #define PI 3.14159265354f
+      | 
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_chassis.h:52: note: this is the location of the previous definition
+   52 | #define PI 3.141593f
+      | 
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Inc/ita_chariot.h:29:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_GraphicsSendTask.h:8: warning: "PI" redefined
+    8 | #define PI 3.14159f
+      | 
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Algorithm/Inc/alg_new_power_limit.h:10: note: this is the location of the previous definition
+   10 | #define PI 3.14159265354f
+      | 
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_minipc.h:21,
+                 from D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_gimbal.h:27:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h: In member function 'uint16_t Class_Referee::Get_HP(Enum_Referee_Data_Robots_ID)':
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_NO' not handled in switch [-Wswitch]
+ 1421 |     switch (Robots_ID)
+      |            ^
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_RED_INFANTRY_5' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_RED_AERIAL_6' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_RED_DART_8' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_RED_RADAR_9' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_HERO_1' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_ENGINEER_2' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_INFANTRY_3' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_INFANTRY_4' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_INFANTRY_5' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_AERIAL_6' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_SENTRY_7' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_DART_8' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_RADAR_9' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_BASE_10' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_referee.h:1421:12: warning: enumeration value 'Referee_Data_Robots_ID_BLUE_OUTPOST_11' not handled in switch [-Wswitch]
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_gimbal.h:29:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_lkmotor.h: At global scope:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_lkmotor.h:205:37: warning: overflow in conversion from 'int' to 'int16_t' {aka 'short int'} changes value from '262144' to '0' [-Woverflow]
+  205 |     const int16_t Current_Max_Cmd = 262144;//外环速度环262144限幅
+      |                                     ^~~~~~
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Chariot/Inc/crt_gimbal.h:348:12: warning: inline variables are only available with '-std=c++17' or '-std=gnu++17' [-Wc++17-extensions]
+  348 |     static inline uint32_t can_priority_cnt = 0; // 电机CAN通信优先级计数器，前面写inline是为了能保持变量是类内部静态变量的同时可以自动初始化
+      |            ^~~~~~
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp: In member function 'void Class_Chariot::CAN_Gimbal_Tx_Chassis_Callback()':
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:401:31: warning: variable 'chassis_control_type' set but not used [-Wunused-but-set-variable]
+  401 |     Enum_Chassis_Control_Type chassis_control_type;
+      |                               ^~~~~~~~~~~~~~~~~~~~
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp: In member function 'void Class_Chariot::Control_Chassis()':
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:501:16: warning: enumeration value 'Keyboard_Control_Type_DISABLE' not handled in switch [-Wswitch]
+  501 |         switch (Keyboard_Control_Type)
+      |                ^
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:501:16: warning: enumeration value 'Keyboard_Control_Type_MOVING' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:501:16: warning: enumeration value 'Keyboard_Control_Type_UPLIFT' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:501:16: warning: enumeration value 'Keyboard_Control_Type_DOWNLIFT' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp: In member function 'void Class_Chariot::Control_Booster()':
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:1256:20: warning: unused variable 'booster_sign' [-Wunused-variable]
+ 1256 |     static uint8_t booster_sign = 0;
+      |                    ^~~~~~~~~~~~
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp: In member function 'void Class_Chariot::Controller_Data_Update()':
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:1768:16: warning: enumeration value 'DR16_Switch_Status_TRIG_UP_MIDDLE' not handled in switch [-Wswitch]
+ 1768 |         switch (controller_dr16_left_switch)
+      |                ^
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:1768:16: warning: enumeration value 'DR16_Switch_Status_TRIG_MIDDLE_UP' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:1768:16: warning: enumeration value 'DR16_Switch_Status_TRIG_MIDDLE_DOWN' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:1768:16: warning: enumeration value 'DR16_Switch_Status_TRIG_DOWN_MIDDLE' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:1798:16: warning: enumeration value 'VT13_Switch_Status_TRIG_Left_Middle' not handled in switch [-Wswitch]
+ 1798 |         switch (controller_vt13_switch)
+      |                ^
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:1798:16: warning: enumeration value 'VT13_Switch_Status_TRIG_Middle_Left' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:1798:16: warning: enumeration value 'VT13_Switch_Status_TRIG_Middle_Right' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:1798:16: warning: enumeration value 'VT13_Switch_Status_TRIG_Right_Middle' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:1798:16: warning: enumeration value 'VT13_Switch_Status_TRIG_Left_Right' not handled in switch [-Wswitch]
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:1798:16: warning: enumeration value 'VT13_Switch_Status_TRIG_Right_Left' not handled in switch [-Wswitch]
+In file included from D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Inc/ita_chariot.h:18:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_VT13.h: At global scope:
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_VT13.h:128:17: warning: 'uint16_t get_crc16_check_sum(uint8_t*, uint16_t, uint16_t)' declared 'static' but never defined [-Wunused-function]
+  128 | static uint16_t get_crc16_check_sum(uint8_t *p_msg, uint16_t len, uint16_t crc16);
+      |                 ^~~~~~~~~~~~~~~~~~~
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Interaction/Src/ita_chariot.cpp:26:17: warning: 'cal_cnt' defined but not used [-Wunused-variable]
+   26 | static uint32_t cal_cnt = 0;
+      |                 ^~~~~~~
+D:/Program/ZLLC27/Robot_Arm_Clion/User/Device/Inc/dvc_VT13.h:130:17: warning: 'crc16_init' defined but not used [-Wunused-variable]
+  130 | static uint16_t crc16_init = 0xffff;
+      |                 ^~~~~~~~~~
+[5/6] Linking CXX executable Robot_Arm_Clion.axf
+Memory region         Used Size  Region Size  %age Used
+
+         DTCMRAM:       81712 B       128 KB     62.34%
+
+          RAM_D1:           0 B       320 KB      0.00%
+
+          RAM_D2:           0 B        32 KB      0.00%
+
+          RAM_D3:           0 B        16 KB      0.00%
+
+         ITCMRAM:           0 B        64 KB      0.00%
+
+           FLASH:      115676 B         1 MB     11.03%
+

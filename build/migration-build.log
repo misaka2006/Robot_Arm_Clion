@@ -1,0 +1,17 @@
+[0/2] Re-checking globbed directories...
+[1/3] Building CXX object CMakeFiles/Robot_Arm_Clion.dir/User/Algorithm/Src/PID.cpp.obj
+[2/3] Linking CXX executable Robot_Arm_Clion.axf
+Memory region         Used Size  Region Size  %age Used
+
+         DTCMRAM:      116016 B       128 KB     88.51%
+
+          RAM_D1:           0 B       320 KB      0.00%
+
+          RAM_D2:           0 B        32 KB      0.00%
+
+          RAM_D3:           0 B        16 KB      0.00%
+
+         ITCMRAM:           0 B        64 KB      0.00%
+
+           FLASH:      195872 B         1 MB     18.68%
+
